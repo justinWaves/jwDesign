@@ -1,0 +1,125 @@
+/*--------------Awesome CSS for JWDesign Portfolio--------------*/
+/* line 9, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+body, html {
+  height: 100%;
+  width: 100%;
+  margin-left: -1px;
+  margin-right: -2px;
+  margin-top: -1px;
+  font-family: montserrat; }
+
+/* line 19, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+.bodyWrap {
+  width: 100%;
+  background-image: url(../images/sunset.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 30, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+.spacer100 {
+  display: flex;
+  height: 100px;
+  background-color: white; }
+
+/* line 37, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+.spacer102 {
+  display: flex;
+  height: 100px;
+  background-color: white; }
+
+/*-=-=--=-=-=-=-=-=-=-=-HEADER -=-=--=-=-=--=-=-=-=-=-=-=-=*/
+/* line 48, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+.headerContain {
+  max-width: 100%;
+  max-height: 1111px;
+  background: linear-gradient(#968969, #FFFFFF); }
+
+/* line 55, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+.mainLogo {
+  max-width: 50%;
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-bottom: 100px; }
+
+/* line 63, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+.treeWindow1 {
+  width: 100%;
+  margin-bottom: -2px; }
+
+/*-=-=--=-=-=-=-=-=-=-=-=-=-Window 1-=-=-=-=-=-=-=-=-=-=*/
+/* line 69, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+.mainHeadings {
+  font-size: 6vw;
+  color: #5a4b2a; }
+
+/* line 75, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+.windowLContain {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%; }
+
+/* line 83, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+.windowL {
+  height: 50%;
+  width: 50%; }
+
+/* line 90, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+.whiteSpaceR {
+  padding-top: 2z0px;
+  padding-right: 50px;
+  width: 50%;
+  background-color: white; }
+
+/*-=-=--=-=-=-=-=-=-SKILLS CONTAINER -=-=--=-==-==-=-=-=-=*/
+/* line 100, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+.skillsContain {
+  display: flex;
+  background-color: white;
+  padding: 20px; }
+
+/* line 108, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+.buttonContain {
+  max-height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px; }
+
+/* line 120, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+#skillsButton {
+  border-radius: 10px;
+  box-shadow: 0px 2px 1px #727272;
+  margin: 6px;
+  flex-shrink: 5;
+  flex-basis: auto;
+  flex-grow: 1;
+  max-width: 80px; }
+
+/* line 130, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+#skillsButton:hover {
+  box-shadow: 0px 2px 10px red; }
+
+/* line 136, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+#buttonImages {
+  flex-basis: auto;
+  max-width: 80px; }
+
+/*-=-=--=-=-=-=-=-=-=-=-=-=-FOOTER -=-=--=-=-=-=-=-=-=-=-=-=-=*/
+/* line 152, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+.footerContain {
+  display: block;
+  max-width: 100%;
+  background: linear-gradient(#FFFFFF, #968969); }
+
+/* line 160, /Users/justinwaves/Desktop/Websites/jwPortfolio2/sass/style.scss */
+.footerLogo {
+  max-width: 20%;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px; }
+
+/*# sourceMappingURL=style.css.map */
