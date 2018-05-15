@@ -15,6 +15,11 @@ body, html{
     font-family: montserrat;
 }
 
+p{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
 
 .bodyWrap{
     width:101%;
@@ -102,9 +107,11 @@ body, html{
 /*-=-=--=-=-=-=-=-=-SKILLS CONTAINER -=-=--=-==-==-=-=-=-=*/
 
 .skillsContain{
-     display: flex;
+    display: flex;
     background-color: white;
     padding:20px;
+    padding-top:100px;
+    margin-bottom: 100px;
     
 }
 
