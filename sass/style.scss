@@ -17,7 +17,7 @@ body, html{
 
 
 .bodyWrap{
-    width:100%;
+    width:101%;
     background-image: url(../images/sunset.jpg);
     height: 150%;
     background-attachment: fixed;
@@ -28,7 +28,7 @@ body, html{
 
 
 .spacer100{
-   display:flex;
+    display:flex;
     height:100px;
     background-color: white
 }
@@ -46,7 +46,7 @@ body, html{
 
 
 .headerContain {
-    max-width: 100%;
+    width: 101%;
     max-height:1111px;
     background: linear-gradient( #968969, #FFFFFF);
 }
@@ -67,8 +67,12 @@ body, html{
 
 /*-=-=--=-=-=-=-=-=-=-=-=-=-Window 1-=-=-=-=-=-=-=-=-=-=*/
 .mainHeadings{
-    font-size:6vw;
-    color:$b2;
+    position: relative;
+    top: 20%;
+    right:20%;
+    
+    font-size: 6vw;
+    color: $b2;
 
 }
 
@@ -141,10 +145,8 @@ body, html{
 }
 
 .skillsFrame{
-
-   
-    
 }
+
 
 
 /*-=-=--=-=-=-=-=-=-=-=-=-=-FOOTER -=-=--=-=-=-=-=-=-=-=-=-=-=*/
